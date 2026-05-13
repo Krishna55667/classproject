@@ -1,211 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
-    <title>Atelier Studio</title>
-
-    <link rel="stylesheet"
-        href="./css/index.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alter</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
-
 <body>
-
-    <div class="main_container">
-
-        <nav class="navbar">
-
+    
+    <nav>
+        <div class = "navigation">
             <div class="logo">
-
-                <img src="./resources/logo.svg">
-                    
-
+                <img src="./resources/logo-light.svg" alt="Logo">
             </div>
 
-            <ul class="menu">
-
-                <li>
-                    <a href="./html/about.html">
-                        About
-                    </a>
-                </li>
-
-                <li>
-                    <a href="./html/portfolio.html">
-                        Portfolio
-                    </a>
-                </li>
-
-                <li>
-                    <a href="./html/services.html">
-                        Services
-                    </a>
-                </li>
-
-                <li>
-                    <a href="./html/pricing.html">
-                        Pricing
-                    </a>
-                </li>
-
-                <li>
-                    <a href="./html/blog.html">
-                        Blog
-                    </a>
-                </li>
-
-                <li>
-                    <a href="./html/contact.html">
-                        Contact
-                    </a>
-                </li>
-
-            </ul>
-
-            <div class="nav_right">
-
-                <i class="fas fa-moon nav_icon"></i>
-
-                <button class="consult_btn">
-
-                    <i class="fa-regular fa-calendar"></i>
-
-                    Book Consultation
-
-                </button>
-
+            <div class = "nav_items">
+                <a href="./html/About.html">About</a>
+                <a href="./html/blog.html">Blog</a>
+                <a href="./html/consultation.html">Consultation</a>
+                <a href="./html/contact.html">Contact</a>
+                <a href="./html/portfolio.html">Portfolio</a>
+                <a href="./html/pricing.html">Pricing</a>
+                <a href="./html/services.html">Services</a>
             </div>
 
-        </nav>
+            
 
-        <section class="hero_section">
-
-            <div class="overlay"></div>
-
-            <div class="hero_content">
-
-                <div class="project_badge">
-
-                    <i class="fa-regular fa-folder-open"></i>
-
-                    47 Projects Completed
-
+            <div class = "consultation_button">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    width="20" height="20" viewBox="0 0 20 20">
+                    <path fill="currentColor" d="M10 6.797a3.19 3.19 0 0 0-3.2 
+                    3.201a3.19 3.19 0 0 0 3.2 3.199a3.19 3.19 0 0 0 3.199-3.199A3.19 
+                    3.19 0 0 0 10 6.797m0 5.25a2.049 2.049 0 1 1 0-4.1a2.05 2.05 0 0 1 0 
+                    4.1M15 5c-.312-.312-.883-.248-1.273.142c-.39.391-.453.959-.141 
+                    1.272s.882.25 1.273-.141c.39-.39.453-.961.141-1.273m-9.858 
+                    8.729c-.391.39-.454.959-.142 1.271s.882.25 
+                    1.273-.141s.454-.961.142-1.273s-.883-.248-1.273.143M5 
+                    5c-.312.312-.249.883.141 1.273c.391.391.961.453 
+                    1.273.141s.249-.883-.142-1.273C5.883 4.752 5.312 4.688 
+                    5 5m8.727 9.857c.39.391.96.455 1.273.143s.249-.883-.142
+                    -1.274s-.96-.453-1.273-.141s-.248.882.142 
+                    1.272M10 4.998c.441 0 .8-.447.8-1C10.799 3.445 10.441 
+                    3 10 3s-.801.445-.801.998s.358 1 .801 1M10 17c.441 
+                    0 .8-.447.8-1s-.358-.998-.799-.998s-.801.445-.801.998c-.001.553.357 
+                    1 .8 1m-5-7c0-.441-.45-.8-1.003-.8S3 9.559 3 10s.444.8.997.8S5 10.442 
+                    5 10m12 0c0-.441-.448-.8-1.001-.8S15 9.559 15 10s.446.8.999.8S17 
+                    10.442 17 10"/></svg>
                 </div>
-
-                <h1>
-
-                    Transforming <br>
-                    Spaces Into <br>
-                    Extraordinary <br>
-                    Experiences
-
-                </h1>
-
-                <p>
-
-                    Award-winning interior design studio crafting timeless,
-                    sophisticated environments for discerning clients across
-                    residential and commercial sectors.
-
-                </p>
-
-                <div class="category_buttons">
-
-                    <button class="active_btn">
-
-                        Residential (18)
-
-                    </button>
-
-                    <button>
-
-                        Commercial (12)
-
-                    </button>
-
-                    <button>
-
-                        Hospitality (9)
-
-                    </button>
-
-                    <button>
-
-                        Retail (8)
-
-                    </button>
-
+                <div class = "button">
+                    <div class = "button_text">Book Consultation</div>
+                    <div class= "hov_button"></div>
                 </div>
+            </div>
 
-                <div class="hero_buttons">
+            <div class="menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="12" d="M3 9l3 3l-3 3"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="12;0"/></path><path stroke-dasharray="16" stroke-dashoffset="16" d="M5 5h14"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.3s" to="0"/></path><path stroke-dasharray="12" stroke-dashoffset="12" d="M10 12h9"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" to="0"/></path><path stroke-dasharray="16" stroke-dashoffset="16" d="M5 19h14"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s" to="0"/></path></g></svg>
+            </div>
 
-                    <button class="portfolio_btn">
+        </div>
+    </nav>
 
-                        View Portfolio
-
-                        <i class="fa-solid fa-arrow-right"></i>
-
-                    </button>
-
-                    <button class="glass_btn">
-
-                        Book Consultation
-
-                    </button>
-
+        <main>
+            <!--hero section-->
+            <div class = "hero">
+                <div class = "hero_body">
+                    <div class = "hero_top">
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+                            viewBox="0 0 24 24"><path fill="none" stroke="currentColor" 
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5m-4 0h4"/></svg></div>
+                        <div>47 Projects Completed</div>
+                    </div>
+                    <div class = "hero_title">
+                        Transforming Spaces Into 
+                        Extraordinary Experiences
+                    </div>
+                    <div class="hero_description">
+                        Award-winning interior design studio crafting timeless,
+                        sophisticated environments for discerning clients
+                        across residential, commercial, and
+                        hospitality sectors.
+                    </div>
+                         <div class = "hero_cta">
+                            <div><p>Residential (8)</p></div>
+                            <div><p>Commercial (8)</p></div>
+                            <div><p>Hospitality (8)</p></div>
+                            <div><p>Retail (8)</p></div>
+                         </div>
+                         <div class = "hero_button">
+                            <button class = "primary">View Portfolio 
+                                <svg xmlns="http://www.w3.org/2000/svg" 
+                                width="25" height="25" viewBox="0 0 24 24"><path
+                                fill="currentColor" d="M14 16.94v-4H5.08l-.03-2.01H14V6.94l5 5Z"/></svg>
+                            </button>
+                            <button class = "second">Book Consultation</button>
+                         </div>
                 </div>
-
             </div>
 
-        </section>
+            <!--cta-->
+            <div class = "cta">
+                <div class = "cta_body">
 
-        <section class="stats_section">
+                    <div class = "cta_content">
+                        <div>47+</div>
+                        <span>Project Completed</span>
+                    </div>
 
-            <div class="stat_box">
-
-                <h2>47+</h2>
-
-                <p>PROJECTS COMPLETED</p>
-
+                    <div class = "cta_content">
+                        <div>15+</div>
+                        <span>Years Experience</span>
+                    </div>
+    
+                    <div class = "cta_content">
+                        <div>12</div>
+                        <span>Design Awards</span>
+                    </div>
+    
+                    <div class = "cta_content">
+                        <div>100%</div>
+                        <span>Client satisfaction</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="stat_box">
-
-                <h2>15+</h2>
-
-                <p>YEARS EXPERIENCE</p>
-
+            <!--experties-->
+            <div class="exp">
+                <div class = "exp_main">
+                    <div class = "exp_top">
+                        <div class="exp_sub">our expertise</div>
+                        <div class="exp_title">Comprehensive Design Services</div>
+                        <div class="exp_dec">From concept to completion, we offer a 
+                            full spectrum of interior design services tailored 
+                            to elevate every space.</div>
+                    </div>
+    
+                    <div class="exp_card">
+                        <div class = "exp_card_body">
+                            <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81zM12 3L2 12h3v8h6v-6h2v6h6v-8h3z"/></svg></div>
+                            <div>
+                                Residential Design
+                            </div>
+                            <div>Creating personalized living 
+                                environments that reflect your 
+                                lifestyle, taste, and the way you truly 
+                                live in your home.</div>
+                        </div>
+                        <div>learn more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path fill="currentColor" d="M340.9 149.3a30.6 30.6 0 0 0 0 42.8L652.7 512L341 831.9a30.6 30.6 0 0 0 0 42.7a29 29 0 0 0 41.7 0l331.6-340.3a32 32 0 0 0 0-44.6L382.6 149.4a29 29 0 0 0-41.7 0z"/></svg></div>
+                    </div>
+                </div>
             </div>
-
-            <div class="stat_box">
-
-                <h2>12</h2>
-
-                <p>DESIGN AWARDS</p>
-
-            </div>
-
-            <div class="stat_box">
-
-                <h2>100%</h2>
-
-                <p>CLIENT SATISFACTION</p>
-
-            </div>
-
-        </section>
-
-    </div>
-
-    <script src="https://kit.fontawesome.com/4f5b4f8b91.js"
-        crossorigin="anonymous"></script>
+        </main>
 
 </body>
-
 </html>
